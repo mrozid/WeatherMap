@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.arthateknologi.weathermap.MainActivity"
+    android:gravity="center_vertical|center|center_horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Kota"
+        android:id="@+id/btnInputLokasi"
+        android:textSize="24pt"
+        android:background="@drawable/bgbtn"
+        android:backgroundTint="#72d5f7"
+        android:backgroundTintMode="multiply"
+        android:nestedScrollingEnabled="false"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textColorHighlight="#6a89f9"
+        android:padding="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="122dp"
+        android:layout_below="@+id/btnLokasi"
+        android:layout_alignLeft="@+id/btnLokasi"
+        android:layout_alignStart="@+id/btnLokasi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Saat Ini"
+        android:id="@+id/btnLokasi"
+        android:textSize="24pt"
+        android:background="@drawable/bgbtn"
+        android:backgroundTint="#72d5f7"
+        android:backgroundTintMode="multiply"
+        android:nestedScrollingEnabled="false"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="#6a89f9"
+        android:padding="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
